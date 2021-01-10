@@ -1,12 +1,15 @@
 {
-  "name": "testApp",
-  "displayName": "testApp",
+  "name": "KaliGenerator",
+  "displayName": "KaliGenerator",
   "expo": {
-    "name": "testApp",
-    "slug": "testApp",
+    "name": "KaliGenerator",
+    "slug": "KaliGenerator",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "io.expo.p07a1330.kaligenerator"
+    }
   }
 }
