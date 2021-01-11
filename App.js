@@ -52,9 +52,9 @@ export default function App() {
   }
   return (
       <View style = {styles.root}>
-        <View style={styles.header}>
-          <Text style={{fontSize: 25}}>Kali table genetator</Text>
-        </View>
+          <View style={styles.header}>
+            <Text style={{fontSize: 25}}>Kali table genetator</Text>
+          </View>
           <View style = {styles.picker}>
               <Picker
               selectedValue={size}
@@ -83,6 +83,7 @@ export default function App() {
                   <Text>Gen</Text>
               </TouchableOpacity>
         </View>
+
         <View style={styles.tableContainer}>
             {drawTable()}
         </View>
