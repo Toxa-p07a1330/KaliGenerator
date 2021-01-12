@@ -27,8 +27,6 @@ export default function App() {
                   }
               </View>
               })
-
-
   }
 
   const onButtonPress=()=>{
@@ -65,7 +63,7 @@ export default function App() {
               mode="dropdown"
           >
             {sizes.map((value)=>{
-              return <Picker.Item label={value} value={value} key={value}/>
+              return <Picker.Item label={value+""} value={value} key={value}/>
             })}
           </Picker>
           <Picker selectedValue={operation}
