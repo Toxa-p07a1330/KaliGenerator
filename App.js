@@ -8,7 +8,7 @@ export default function App() {
   const [size, setSize] = useState("7");
   const [operation, setOperation] = useState("+");
   const [data, setData]=useState([]);
-  let sizes = [1,2,3,4,5,6,7,8,9];
+  let sizes = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
   let test = ['a', 'b', 'c'];
   let drawTable=()=>{
       if (data)
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
     flex: 1,
     height:"5%",
     backgroundColor: "#aaaaaa",
-    width:"95%",
+    width:"100%",
     alignItems:"center",
     justifyContent: 'center',
 
@@ -102,11 +102,11 @@ const styles = StyleSheet.create({
   picker:{
     flex: 1,
     height:"5%",
-    width:"95%",
     backgroundColor: "#bbbbbb",
     alignItems: 'center',
     justifyContent: 'space-around',
     flexDirection:"row",
+    width:"100%"
 
   },
   pickerSelector:{
@@ -115,8 +115,6 @@ const styles = StyleSheet.create({
   },
   tableContainer:{
     flex: 8,
-    height:"5%",
-    width:"95%",
     backgroundColor: "#cccccc",
   },
   tableRow:{
@@ -153,7 +151,6 @@ const styles = StyleSheet.create({
 
     },
   root:{
-    top:"5%",
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
